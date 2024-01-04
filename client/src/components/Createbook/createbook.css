@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px !important;
+}
+
+.formControl {
+  margin-top: 10px;
+}
+
+.formHead {
+  padding: 10px;
+}
+
+.formHead h2 {
+  color: #dc3545;
+}
+
+.regbtn {
+  width: 91% !important;
+  padding: 10px;
+  border: 1px #dc3545 solid !important;
+  font-weight: bolder !important;
+}
+
+.regbtn:hover {
+  background-color: #dc3545 !important;
+  color: white;
+}
+

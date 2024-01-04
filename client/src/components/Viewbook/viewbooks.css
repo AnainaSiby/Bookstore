@@ -1,0 +1,55 @@
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+thead{
+    text-align: center;
+}
+
+th{
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+tbody{
+    text-align: center;
+}
+
+.table-div{
+    margin: 15px 40px ;
+    max-width: 100%;
+    overflow-x: auto;
+    max-height: 380px;
+}
+
+Table{
+    width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed; 
+}
+
+td{
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.view-head{
+    text-align: center;
+    color:#dc3545 ;
+    margin-top: 30px;
+}
+
+a{
+    color:#dc3545 ;
+  
+}
+
+.table-hover-custom tbody tr:hover {
+    background-color: #dc3545 !important;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }

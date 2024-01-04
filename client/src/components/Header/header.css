@@ -1,0 +1,18 @@
+.nav-main{
+    background-color: #dc3545;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-options .items{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-main a{
+    text-decoration: None ;
+    color: white;
+}

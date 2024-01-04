@@ -1,0 +1,51 @@
+.main{
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+}
+
+.card{
+    padding: 30px;
+}
+
+.title{
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.title img{
+    height: 212px;
+    padding-bottom: 15px;
+}
+
+.title h1{
+    color: #dc3545;
+}
+
+.options{
+    padding: 10PX;
+}
+
+.options-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn1 Button{
+    font-weight: bold;
+}
+
+.btn1 Button:hover{
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 2px 2px 8px #c0b7b8;
+    border: none;
+    color: #dc3545;
+}
+
+.btn2 Button{
+    font-weight: bold;
+    box-shadow: 2px 2px 8px #c0b7b8;
+    border: none;
+}
